@@ -1,9 +1,5 @@
 # Cross-Site-Request-Forgery
 
-You are absolutely right. To have a defensible audit report, you must show the manual "failure" of the server's logic before you show the "automated" attack via Burp. 
-
-Here is the **complete, end-to-end testing lifecycle** for CSRF in your Zabbix environment, structured to prove that the security gate is failing even if the user permissions (RBAC) are blocking the final action.
-
 ---
 
 ### **Phase 1: Identify the "Sensitive Action" (The Trigger)**
